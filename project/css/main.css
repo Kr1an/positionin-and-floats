@@ -1,5 +1,9 @@
 body{
     height: 2000px;
+    font-family: MyriadPro-Regular;
+    color:#333;
+
+
 }
 .panel{
     box-sizing:border-box;
@@ -24,7 +28,7 @@ body{
     background:#acacac;
 }
 .container{
-    left:0;
+    left:36px;
     right:0;
     margin: 0 auto;
     top:0px;
@@ -58,7 +62,7 @@ body{
     border: 2px solid #000;
 }
 
-.icon-bar{
+.share{
     position:fixed;
 
     height:70px;
@@ -66,5 +70,94 @@ body{
     border: 1px solid #000;
     background:#fbaf5d;
     right:0px;
-    bottom:0px;
+    bottom:150px;
+    padding:0px;
+}
+
+.share-text-container{
+    height:35%;
+    font-size:16px;
+    text-align: center;
+}
+.share-icons-container{
+    height:75%;
+    text-align:center
+}
+
+.share-text{
+    margin:9px;
+    font-weight:bold;
+}
+
+.main-content-conteiner{
+    padding:20px 35px 20px 35px;;
+
+}
+
+.main-title{
+    margin-bottom:7px;
+    font-size: 1.55rem;
+    font-weight:lighter;
+}
+.secondary-title{
+    font-weight:lighter;
+    margin-top:35px;
+    font-weight:500;
+    font-size:1.17rem;
+
+}
+
+.first-article{
+    font-size:12.3px
+}
+
+.first-article-text{
+    font-size:12.4px;
+    margin-top:0px;
+    margin-bottom:3px
+}
+
+.first-article-image{
+    float:left;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+
+.second-article{
+    margin-top:20px;
+
+}
+
+.second-article-text{
+    font-size:12.4px;
+    margin-top:0px;
+}
+
+.second-article-image{
+    margin-top:2px;
+    float:right;
+
+}
+.examples-container:after{
+    clear:both;
+    content:".";
+    display:block;
+    visibility: hidden;
+    height:0;
+}
+.examples-container :nth-of-type(-n+2){
+    margin-bottom: 15px;
+}
+.examples-container :nth-of-type(2n){
+    float:left;
+}
+.examples-container :nth-of-type(2n+1){
+    float:right;
+}
+
+
+@font-face {
+  font-family: MyriadPro-Regular;
+  src:url('fonts/MyriadPro-Regular.otf');
+
 }
