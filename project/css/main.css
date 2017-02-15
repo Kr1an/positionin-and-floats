@@ -1,0 +1,70 @@
+body{
+    height: 2000px;
+}
+.panel{
+    box-sizing:border-box;
+    width:523px;
+    height:750px;
+    border:2px solid #000;
+    position:absolute;
+    right:18px;
+    bottom:18px;
+
+}
+.panel-front{
+    z-index:20;
+    background:#ebebeb;
+}
+.panel-middle{
+    z-index:21;
+    background:#cccccc;
+}
+.panel-back{
+    z-index:22;
+    background:#acacac;
+}
+.container{
+    left:0;
+    right:0;
+    margin: 0 auto;
+    top:0px;
+    margin-top:60px;
+
+}
+.mark-tracker-front{
+    background:#f68e56;
+    right:-80px;
+}
+
+.mark-tracker-middle{
+    background:#39b54a;
+    position:absolute;
+    right:-50px;
+}
+.mark-tracker-back{
+    background:#00aeef;
+    position:absolute;
+    right:-17px;
+}
+
+.mark-tracker{
+    height:35px;
+    width:110px;
+
+    position:absolute;
+    top:40px;
+
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid #000;
+}
+
+.icon-bar{
+    position:fixed;
+
+    height:70px;
+    width:90px;
+    border: 1px solid #000;
+    background:#fbaf5d;
+    right:0px;
+    bottom:0px;
+}
