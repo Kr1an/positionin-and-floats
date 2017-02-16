@@ -128,6 +128,11 @@ section:after{
     float:right;
 }
 
+footer p{
+    text-align:center;
+    font-size:0.65em;
+}
+
 
 .examples img:nth-of-type(-n+2){
     margin-bottom: 15px;
