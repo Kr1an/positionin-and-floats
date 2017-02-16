@@ -71,20 +71,18 @@ body{
     background:#fbaf5d;
     right:0px;
     bottom:150px;
-    padding:0px;
+    
 }
-
-.share-text-container{
+.share :last-child{
+    text-align:center
+}
+.share :first-child{
     height:35%;
     font-size:16px;
     text-align: center;
 }
-.share-icons-container{
-    height:75%;
-    text-align:center
-}
 
-.share-text{
+.share p{
     margin:9px;
     font-weight:bold;
 }
@@ -94,7 +92,7 @@ body{
 
 }
 
-.main-title{
+.primary-title{
     margin-bottom:7px;
     font-size: 1.55rem;
     font-weight:lighter;
